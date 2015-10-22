@@ -10,15 +10,10 @@
 
                  ;; Testing
                  [speclj "3.3.1"]
-                 ;; for junit output: lein spec -f junit
-                 [speclj-junit "0.0.10"]
 
                  ;; Utils
                  [org.clojure/tools.logging "0.3.1"]
-                 [ch.qos.logback/logback-classic "1.1.3"]
-                 [org.clojure/tools.trace "0.7.9"]
-                 [clj-time "0.11.0"]
-                 [pandect "0.5.3"]]
+                 [ch.qos.logback/logback-classic "1.1.3"]]
   :main codecamp2015.main
   :target-path "target/%s"
 
